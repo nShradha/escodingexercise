@@ -1,11 +1,25 @@
-# Getting Started with Create React App
+# Coding Exercise - Examsoft
+## Submitted by : Shradhanjali (Nikki) Panda
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+The coding exercise is created as a React application. The simple coding challenge (Coding Exercise 01) will load as part of the main page. 
+There are 3 challenges that has details for how to run the same. Details for each challenge can be found within the UI.
+
+
+For the Array remove duplicates challenge, we are assuming that the Array inputs were already provided. In the application, you will see two examples as to how this was implemented. The code for this can be foung in the src/remove-duplicates.js file
+
+For the delayed Promise resolve, we are taking user input in seconds and returning an alert after the input seconds. The upper limit for seconds is set as 10. There can be modifications to this to ensure that we are inputing only integers and not strings.
+
+For the CSS transition, user will need to hover to initiate the transition process to ensure that the user can notice the transition.
+
+The dogs coding challenge can be found in the Coding Exercise 02 Tab. To load the Random Dog image, please click on the `Get Random Dog` button. The random list of 10 dogs should load once you load the page. To refresh the random dogs, please refresh the page.
 
 ## Available Scripts
 
-In the project directory, you can run:
+To run the project, please install node in your system, documentation can be found [here](https://nodejs.org/en/).
+Once you have node js in your system, please install the project using `npm install` or `npm i`
 
+To start up the project please use below command.
 ### `npm start`
 
 Runs the app in the development mode.\
@@ -13,11 +27,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -38,33 +47,3 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

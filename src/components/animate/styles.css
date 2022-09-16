@@ -1,0 +1,26 @@
+.animate {
+  display: flex;
+  width: 30%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition-delay: 1000ms;
+  transition-duration: 1000ms;
+  transition-property: transform;
+  margin-left: 0.5rem;
+  
+}
+.animate:hover {
+  transform: translate(100px);
+}
+
+.note-animate {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: start;
+  width: 50%;
+  justify-content: space-between; 
+  margin-left: 0.5rem;
+  font-size: x-small;
+}

@@ -1,24 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
-
+import React ,{ Fragment } from 'react';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route
+} from "react-router-dom";
+import { CodingExcercise01 } from './components/coding-ex-01';
+import { CodingExcercise02 } from './components/coding-ex-02';
+import { Navbar } from './components/navbar';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    
+    <Fragment>
+      <div className="App"> 
+        <Router>
+        <Navbar />      
+        <div className="container">
+          <Routes>
+            <Route exact path="/" element={<CodingExcercise01/>}  />
+            <Route path="/dogs" element={<CodingExcercise02/>}  />
+          </Routes>  
+        </div>
+        </Router>   
+      </div>
+    </Fragment>
+    
   );
 }
 
