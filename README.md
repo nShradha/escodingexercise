@@ -1,6 +1,4 @@
 # Coding Exercise - Examsoft
-## Submitted by : Shradhanjali (Nikki) Panda
-
 
 The coding exercise is created as a React application. The simple coding challenge (Coding Exercise 01) will load as part of the main page. 
 There are 3 challenges that has details for how to run the same. Details for each challenge can be found within the UI.
